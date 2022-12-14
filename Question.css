@@ -1,0 +1,195 @@
+body{
+    background-color: #3F4739;
+    overflow: hidden;
+}
+
+#div{
+    display: grid;
+    place-content: center;
+}
+
+#head{
+    height: 10vh;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 10px;
+    background-color: #636f59;
+    margin-bottom: 50px;
+    text-align: center;
+    line-height: 10vh;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #1e201c;
+}
+
+#theFather{
+    background-color: #717568;
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 10px;
+    border: solid 2px black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#Q{
+    text-align: center;
+    color:  #1e201c;
+    font-size: 30px;
+    margin-bottom: 100px;
+    font-family: 'Lora', serif;
+}
+
+.question{
+    margin-top: 10px;
+    font-size: 10px;
+    padding: 3px;
+}
+
+.answers{
+    font-size: 10px;
+    padding: 3px;
+}
+
+#nex{
+    background-color: #a8b698;
+    border-radius: 10px;
+    margin-top: 120px;
+    margin-left: 305px;
+    width: 90px;
+    transition: .25s;
+}
+
+#sub{
+    background-color: #a8b698;
+    border-radius: 10px; 
+    width: 90px;
+    transition: .25s;
+}
+
+#buttonWrapper{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2px;
+    margin-top: 100px;
+}
+
+.button{
+    background-color: #a8b698;
+    padding: 20px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    width: 400px;
+    transition: .25s;
+    font-family: 'Lora', serif;
+}
+
+#sc{
+    width: 815px;
+    height: 50px;
+    background-color: #717568;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    font-family: 'Lora', serif;
+    color: #1e201c;
+    border: solid 2px black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+/* Hover Css */
+.button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    scale: 1.01;
+    background-color: #94a187;
+}
+
+.button:active{
+    background-color: #94a187;
+    box-shadow: 0 5px rgba(0,0,0,0.24);
+    transform: translateY(4px);
+}
+
+#nex:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    scale: 1.1;
+    background-color: #94a187;
+}
+
+#nex:active{
+    background-color: #94a187;
+    box-shadow: 0 5px rgba(0,0,0,0.24);
+    transform: translateY(4px);
+}
+
+#sub:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    scale: 1.1;
+    background-color: #94a187;
+}
+
+#sub:active{
+    background-color: #94a187;
+    box-shadow: 0 5px rgba(0,0,0,0.24);
+    transform: translateY(4px);
+}
+
+
+
+
+
+#StartPage{
+    transform: translateY(-60vh);
+    z-index: 10;
+    opacity: 1;
+    transition: .5s;
+    background-color: #3F4739;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    left: 0px;
+    top: 450px;
+
+}
+
+
+#PrPs{
+    text-align: center;
+    color: #1e201c;
+    font-size: 50px;
+    font-family: 'Lora', serif;
+    margin-top: 250px;
+}
+
+#god{
+    opacity: 0;
+    transition: .5s;
+}
+
+#StartButton{
+    width: 300px;
+    height:100px;
+    padding: 10px;
+    background-color: #a8b698;
+    color: #1e201c;
+    border-radius: 10px;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 620px;
+    font-family: 'Lora', serif;
+    transition: .25s;
+}
+
+#StartButton:hover{
+    background-color: #94a187;
+    scale: 1.1;
+}
+
+#StartButton:active{
+    background-color: #94a187;
+    box-shadow: 0 5px rgba(0,0,0,0.24);
+    transform: translateY(4px);
+}
